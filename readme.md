@@ -1,3 +1,5 @@
+EXCEL Z MATERIAŁAMI: https://docs.google.com/spreadsheets/d/1bg52nJLFaoFhk2eZnPEuXLWM5TaunwNL8QnfYzxzEbI/edit#gid=0
+
 1. HTML + CSS:
 
 - widoki z kolorkami
