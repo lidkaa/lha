@@ -1,0 +1,3 @@
+function getAllPoweredValuesLimitedByNumber(value) {
+	// kod
+}

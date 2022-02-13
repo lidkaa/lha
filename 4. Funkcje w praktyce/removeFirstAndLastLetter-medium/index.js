@@ -1,0 +1,3 @@
+function removeFirstAndLastLetter(value) {
+	// kod
+}
