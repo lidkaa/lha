@@ -15,11 +15,11 @@
 
 <br>
 
-![Sun2](assets/sun2.png "Sun 2")
+![Sun2](./assets/sun2.png "Sun 2")
 
 <br>
 
-![Sun3](../assets/sun3.png "Sun 3")
+![Sun3](./assets/sun3.png "Sun 3")
 
 ## Cele opcjonalne do wykonania
 
