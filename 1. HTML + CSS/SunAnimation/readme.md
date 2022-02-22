@@ -11,15 +11,15 @@
 -   [ ] Stwórz animację, w której słońce w sposób płynny będzie poruszać się po obwodzie zgodnie z zamieszczonymi zdjęciami.
 -   [ ] Animacja ma trwać 10s.
 
-![Sun1](/assets/sun1.png "Sun 1")
+![Sun1](./assets/sun1.png "Sun 1")
 
 <br>
 
-![Sun2](/assets/sun2.png "Sun 2")
+![Sun2](assets/sun2.png "Sun 2")
 
 <br>
 
-![Sun3](/assets/sun3.png "Sun 3")
+![Sun3](../assets/sun3.png "Sun 3")
 
 ## Cele opcjonalne do wykonania
 
