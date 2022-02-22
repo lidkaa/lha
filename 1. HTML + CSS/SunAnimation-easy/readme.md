@@ -1,4 +1,4 @@
-<h2 align="center">Opis zadania Scaling Squares</h2>
+<h2 align="center">Opis zadania Sun Animation</h2>
 
 <br>
 
