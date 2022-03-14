@@ -16,11 +16,11 @@
 - [ ] Po kliknięciu ramka karty produktu ma się pogrubić
 <!-- - [ ] Projekt do zadania: uzupełnić -->
 
-
-
 ## Przydatne linki
 
+- Przed rozpoczęciem zadania zagraj w poniższe gry:
+  - Flexbox (https://flexboxfroggy.com/#pl lub https://mastery.games/flexboxzombies)
+  - Grid (https://cssgridgarden.com/#pl)
 - Jak przeglądać pliki w Figmie - https://www.youtube.com/watch?v=nHbdpq6q7F8
 - Flexbox cheat sheet - https://flexbox.malven.co/
 - Grid cheat sheet - https://grid.malven.co/
-

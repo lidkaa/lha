@@ -14,7 +14,9 @@ Przy każdej nazwie pliku jest dodany poziom trudności zadania. Zadania z dopis
 
 ### Co można przepracować w praktyce w tym module
 
-- do uzupełnienia
+- Github oraz git
+- Używanie gita w terminalu
+- Obsługiwanie repozytorium
 
 ### Link do materiałów
 

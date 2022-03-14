@@ -14,7 +14,9 @@ Przy każdej nazwie pliku jest dodany poziom trudności zadania. Zadania z dopis
 
 ### Co można przepracować w praktyce w tym module
 
-- do uzupełnienia
+- Operacje na drzewie DOM
+- Podłączanie listenerów do elementów
+- Tworzenie aplikacji z użyciem html, css i js
 
 ### Link do materiałów
 

@@ -1,7 +1,7 @@
-
 ## Cel modułu Funkcje w praktyce
 
 Ten moduł służy do przeniesienia umiejętności nabytych w module 3 na praktyczne wykorzystanie w praktycznych zadaniach.
+
 #### Po co jest ten moduł
 
 Tutaj nauczysz się myśleć jak programista - znając możliwości i ograniczenia narzędzia jakim jest JS, nauczysz się przenosić wymagania biznesowe do funkcji, stosując dobre praktyki pisania kodu.
@@ -14,7 +14,8 @@ Przy każdej nazwie pliku jest dodany poziom trudności zadania. Zadania z dopis
 
 ### Co można przepracować w praktyce w tym module:
 
-- do uzupełnienia
+- Praktyczne zastosowanie funkcji
+- Metody stringów, numerów oraz tablic
 
 ### Link do materiałów
 

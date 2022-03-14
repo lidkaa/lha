@@ -14,7 +14,9 @@ Przy każdej nazwie pliku jest dodany poziom trudności zadania. Zadania z dopis
 
 ### Co można przepracować w praktyce w tym module
 
-- do uzupełnienia
+- Operacje na różnych typach danych
+- Tworzenie zmiennych, operatorów, warunków oraz pętli
+- Podstawowe użycie funkcji
 
 ### Link do materiałów
 

@@ -14,7 +14,11 @@ Przy każdej nazwie pliku jest dodany poziom trudności zadania. Zadania z dopis
 
 ### Co można przepracować w praktyce w tym module
 
-- do uzupełnienia!!!
+- Tworzyć aplikacje przy użyciu html i css
+- Semantyczny html
+- Tworzyć widoki przy pomocy flexboxa oraz grida
+- Responsywność stron
+- Zaawansowany css (pseudo-elementy, animacje, interakcje z elementami)
 
 ### Link do materiałów
 

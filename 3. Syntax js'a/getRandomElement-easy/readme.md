@@ -26,5 +26,6 @@ const getRandomElement = (array) => {};
 
 const exampleArray = ["raz", "dwa", "trzy", "cztery", "piec"];
 const result1 = getRandomElement(exampleArray); // result1 === "trzy"
-const result2 = getRandomElement(exampleArray); // result2 === "dwa"
+const result2 = getRandomElement(exampleArray); // result2 === "raz"
+// Oczywiście twoje rezultaty mogą się różnić, bo są losowe ;)
 ```

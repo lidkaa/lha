@@ -1,4 +1,4 @@
-<h2 align="center">Opis zadania capitalizeFirstLetters</h2>
+<h2 align="center">Opis zadania changeFirstLetters</h2>
 
 <br>
 
@@ -9,7 +9,7 @@
 ## Cele główne
 
 - [ ] Napisz funkcję, która przyjmuje 1 argument - text.
-- [ ] Funkcja ta ma zwracać tekst w którym każde słowo zaczyna się od wielkiej litery.
+- [ ] Funkcja ta ma zwracać tekst w którym pierwsze litery wyrazów zmieniają swoją wielkość.
 
 ## Cele opcjonalne do wykonania
 
@@ -22,8 +22,8 @@
 ## Kawałek kodu dla lepszego początku!
 
 ```javascript
-const capitalizeFirstLetters = (text) => {};
+const changeFirstLetters = (text) => {};
 
-const exampleText = "Pisze tutaj cokolwiek";
-const result = capitalizeFirstLetters(exampleText); // result === "Pisze Tutaj Cokolwiek"
+const exampleText = "Pisze tutaj cokolwiek, a Ala ma kota";
+const result = changeFirstLetters(exampleText); // result === "pisze Tutaj Cokolwiek, A ala Ma Kota"
 ```
