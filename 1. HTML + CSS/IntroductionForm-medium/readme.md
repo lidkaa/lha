@@ -8,7 +8,7 @@
 
 ## Cele główne
 
-- [ ] Każdy ze studentów wypełniał ankietę kontaktową, zanim mentor się z nim zdzwonił. Na jej bazie stwórz ankietę w HTML, i ostyluj ją wg własnego uznania.
+- [ ] Każdy ze studentów wypełniał ankietę kontaktową, zanim mentor się z nim zdzwonił. Na jej bazie stwórz ankietę w HTML, i ostyluj ją wg [projektu](https://www.figma.com/file/UQOXLiEpCBpK5iSb2rMz7H/Zadanie-Ankieta?node-id=0%3A1).
 - [ ] Flow ankiety powininen prowadzić z góry na dół.
 - [ ] Pola które mają się w niej znaleźć (wymagane mają gwiazdkę):
   - Dlaczego pchasz się do IT (dostępne opcje: aktualna praca mnie nie cieszy, za dzieciaka kodowałem, jestem już programistą, lubię komputery. Można zaznaczyć kilka opcji);
