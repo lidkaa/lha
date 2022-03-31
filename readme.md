@@ -1,4 +1,4 @@
-EXCEL Z MATERIAŁAMI: https://docs.google.com/spreadsheets/d/1bg52nJLFaoFhk2eZnPEuXLWM5TaunwNL8QnfYzxzEbI/edit#gid=0
+EXCEL Z MATERIAŁAMI: <https://docs.google.com/spreadsheets/d/1bg52nJLFaoFhk2eZnPEuXLWM5TaunwNL8QnfYzxzEbI/edit?usp=sharing>
 
 1. HTML + CSS:
 
@@ -42,7 +42,7 @@ EXCEL Z MATERIAŁAMI: https://docs.google.com/spreadsheets/d/1bg52nJLFaoFhk2eZnP
 - metody tablic
 - zakresy (spread, rest, destrukturyzacja)
 
-Do przeczytania: https://github.com/ryanmcdermott/clean-code-javascript
+Do przeczytania: <https://github.com/ryanmcdermott/clean-code-javascript>
 10 błędnie wykonanych kodów i jaka jest proponowana zmiana
 
 5. HTML, CSS + JS (mini projekty):
