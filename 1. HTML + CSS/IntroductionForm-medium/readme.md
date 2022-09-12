@@ -28,3 +28,4 @@
 - Jak tworzyć formularze w HTML: <https://codeyourfuture.github.io/syllabus-scotland/html-css/week-03/lesson.html#what-are-forms>
 - Dobre praktyki odnośnie stylowania formularza: <https://medium.com/nextux/form-design-best-practices-9525c321d759>
 - Jak ustawić własne style na checkbox i radio input - <https://www.w3schools.com/howto/howto_css_custom_checkbox.asp>
+- Jak ostylować select i options - <https://www.w3schools.com/howto/howto_custom_select.asp>
