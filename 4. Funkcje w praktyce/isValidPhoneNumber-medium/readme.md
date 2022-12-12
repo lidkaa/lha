@@ -9,8 +9,8 @@
 ## Cele główne
 
 -   [ ] Napisz funkcję, która przyjmuje 1 argument - value (number lub string).
--   [ ] Zadaniem funkcji jest zwrócenie czy przekazana wartość argumentu to poprwany numer telefonu.
--   [ ] Zakładamy, że warunek zostanie spełniony dla wartości value bez wykorzystania spacji, z wykorzystaniem spacjami lub oddzielony '-'.
+-   [ ] Zadaniem funkcji jest zwrócenie true jeżeli przekazany argument to poprawany numer telefonu lub false jeżeli numer jest niepoprawny.
+-   [ ] Argument będzie poprawny jeżeli zostanie przekazany: bez wykorzystania spacji, z wykorzystaniem spacjami lub oddzielony '-'.
 -   [ ] Pamiętaj o przewidzeniu podstawowej walidacji dla przekazanego argumentu.
 
 ## Cele opcjonalne do wykonania
