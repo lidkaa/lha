@@ -9,7 +9,7 @@
 ## Cele główne
 
 - [ ] Napisz funkcję, która przyjmuje 1 argument - text.
-- [ ] Funkcja ta ma zwracać tekst w którym pierwsze litery wyrazów zmieniają swoją wielkość.
+- [ ] Funkcja ma zwracać tekst, w którym pierwsza litera każdego wyrazu zmieni swoją wielkość.
 
 ## Cele opcjonalne do wykonania
 
