@@ -30,3 +30,5 @@
 - Dobre praktyki odnośnie stylowania formularza: <https://medium.com/nextux/form-design-best-practices-9525c321d759>
 - Jak ustawić własne style na checkbox i radio input - <https://www.w3schools.com/howto/howto_css_custom_checkbox.asp>
 - Jak ostylować select i options - <https://www.w3schools.com/howto/howto_custom_select.asp>
+- Walidacja formularza i inne ciekawe atrybuty - <https://www.htmhell.dev/adventcalendar/2022/10/>
+- Tworzenie inputów typu select i radio - <https://www.htmhell.dev/adventcalendar/2022/11/>

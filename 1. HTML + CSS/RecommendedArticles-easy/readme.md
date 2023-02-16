@@ -24,3 +24,4 @@
 - Selektory w CSS - https://www.w3schools.com/cssref/css_selectors.asp
 - Intro do HTML CSS - https://www.youtube.com/watch?v=mU6anWqZJcc
 - Jak przeglądać pliki w Figmie - <https://www.youtube.com/watch?v=nHbdpq6q7F8>
+- Jak można optymalizować zdjęcia - <https://www.htmhell.dev/adventcalendar/2022/18/>
