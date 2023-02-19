@@ -1,4 +1,4 @@
-<h2 align="center">Portfolio Repo</h2>
+<h2 align="center">Shop Markup Repo</h2>
 
 <br>
 
@@ -8,7 +8,7 @@
 
 ## Cele główne
 
-- [ ] Stwórz repozytorium i umieść tam swoje portfolio (zadanie PortfolioWebsite z modułu 1).
+- [ ] Stwórz repozytorium i umieść tam swoj sklep (zadanie ShopMarkup z modułu 1).
 - [ ] Wystaw swoją stronę przy pomocy github pages.
 
 ## Cele opcjonalne do wykonania
