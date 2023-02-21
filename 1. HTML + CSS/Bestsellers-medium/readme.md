@@ -19,5 +19,5 @@
 - Przed rozpoczęciem zadania zagraj w poniższe gry:
   - Flexbox (<https://flexboxfroggy.com/#pl> lub <https://mastery.games/flexboxzombies>)
   - Grid (<https://cssgridgarden.com/#pl>)
-- Flexbox cheat sheet - <https://flexbox.malven.co/>
+- Flexbox cheat sheet - <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
 - Grid cheat sheet - <https://grid.malven.co/>
