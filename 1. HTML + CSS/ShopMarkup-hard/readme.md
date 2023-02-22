@@ -14,6 +14,7 @@
 - [ ] Strona powinna mieć navbar, gdzie elementy menu mają być odnośnikami do konkretnej sekcji, po kliknięciu w odnośnik strona powinna płynnie się przewinąć do danej sekcji
 - [ ] Footer powinien zawierać ikony social media, które po najechaniu i kliknięciu zmienią kolor, i odeślą do Twoich profili (otwieranie w nowej karcie)
 - [ ] Strona ma być responsywna, widok mobilny znajdziesz [tutaj](https://www.figma.com/file/aue8jexPLJka4kl7fhuplU/Kindergarden-0.1?node-id=0%3A1)
+- [ ] Na widoku mobilnym, sekcja Bestsellers powinna się przewijać w poziomie.
 
 ## Cele opcjonalne do wykonania
 
