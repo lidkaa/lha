@@ -20,4 +20,4 @@
   - Flexbox (<https://flexboxfroggy.com/#pl> lub <https://mastery.games/flexboxzombies>)
   - Grid (<https://cssgridgarden.com/#pl>)
 - Flexbox cheat sheet - <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
-- Grid cheat sheet - <https://grid.malven.co/>
+- Grid cheat sheet - <https://css-tricks.com/snippets/css/complete-guide-grid/>

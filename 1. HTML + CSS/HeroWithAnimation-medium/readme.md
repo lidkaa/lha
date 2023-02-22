@@ -9,7 +9,7 @@
 ## Cele główne
 
 - [ ] Stwórz sekcję hero zgodnie z projektem [w Figmie](https://www.figma.com/file/aue8jexPLJka4kl7fhuplU/Kindergarden-0.1?node-id=32%3A132)
-- [ ] Elementy sekcji powinny być animowane za pomocą animacji z @keyframes. Przykładowe animacje możesz znaleźć [tutaj](https://freefrontend.com/css-hero-effects/)
+- [ ] Elementy sekcji powinny być animowane za pomocą animacji z @keyframes. Przykładową inspirację możesz znaleźć [tutaj](https://codepen.io/nichola-hudson/full/NJmOWm)
 - [ ] Animacja ma trwać 4s
 
 ## Cele opcjonalne do wykonania

@@ -10,7 +10,7 @@
 
 - [ ] Stwórz widok polecanych artykułów wg projektu w [Figmie.](https://www.figma.com/file/aue8jexPLJka4kl7fhuplU/Kindergarden-0.1?node-id=29%3A2) (Task 1)
 - [ ] Do layoutu wykorzystaj tylko display: block, inline-block i inline
-- [ ] Po najechaniu kursorem na przycisk "Read more" powinien on zmienić swój wygląd - zaimplementuj własne style, pozostając w zgodzie z motywem
+- [ ] Po najechaniu kursorem na przycisk "Read more" powinien on zmienić swój wygląd - zaimplementuj styl typu [ghost button](https://uxplanet.org/ghost-buttons-in-ux-design-4cf3717334f8), pozostając w zgodzie z motywem
 - [ ] Pamiętaj o stosowaniu odpowiednich tagów
 - [ ] Zdjęcia do projektu wyeksportuj z Figmy
 
