@@ -1,0 +1,131 @@
+:root {
+    --light-green: #DEF9EC;
+    --dark-green: #3BB77E;
+    --light-grey: #ADADAD;
+    --white: #FFFFFF;
+    --dark-blue: #253D4E;
+    --shadow-grey: #dbdbdb;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+h1 {
+    display: block;
+    max-width: 100vw;
+    line-height: 140px;
+    padding-left: 207px;
+    background-color: var(--light-green);
+    color: var(--dark-blue);
+    font-size: 36px;
+}
+
+.container {
+    max-height: 85vh;
+    padding-top: 49px;
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    grid-template-rows: repeat(3, 320px);
+    column-gap: 100px;
+    row-gap: 50px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: var(--white);
+    box-shadow: 3px 3px 6px var(--shadow-grey), -1px -1px 4px var(--shadow-grey);
+}
+
+.card:hover {
+    scale: 1.01;
+}
+
+.card-img {
+    align-self: center;
+}
+
+.card-text {
+    padding-left: 12px;
+}
+
+.card-text-category {
+    margin-top: 3px;
+    font-family: 'Quickstand', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--light-grey);
+}
+
+.card-text-name {
+    margin-top: 6px;
+    font-family: 'Quickstand', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--dark-blue);
+}
+
+.card-text-price {
+    margin-top: 6px;
+    font-family: 'Quickstand', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--dark-green);
+}
+
+.card-text-old-price {
+    padding: 5px;
+    font-family: 'Quickstand', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--light-grey);
+    text-decoration: line-through;
+}
+
+.btn-green {
+    margin-top: 6px;
+    width: 196px;
+    height: 38px;
+    align-self: center;
+    background-color: var(--dark-green);
+    border: none;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.circle-01 {
+    margin-top: -50px;
+    margin-left: -200px;
+    width: 268px;
+    height: 268px;
+    border-radius: 50%;
+    border: 3px solid var(--dark-green);
+    z-index: -1;
+}
+
+.circle-02 {
+    margin-right: 0;
+    margin-top: -250px;
+    width: 916px;
+    height: 916px;
+    border-radius: 50%;
+    border: 3px solid var(--dark-green);
+    z-index: -1;
+}
