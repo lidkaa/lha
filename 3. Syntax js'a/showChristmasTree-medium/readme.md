@@ -28,11 +28,11 @@ const showChristmasTree = (treeHeight) => {};
 showChristmasTree(4);
 // W konsoli powinno wyświetlić się:
 /*
-    *
-   /x\
-  /xxx\
- /xxxxx\
-/xxxxxxx\
+h    *
+h-1   /x\  h-3  
+h-2  /xxx\ h-2
+h-3 /xxxxx\h-1
+/xxxxxxx\   h
     |
 */
-```
+

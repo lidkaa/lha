@@ -1,0 +1,12 @@
+{
+  "name": "kindergarden",
+  "version": "1.0.0",
+  "description": "EXCEL Z MATERIAŁAMI: <https://docs.google.com/spreadsheets/d/1bg52nJLFaoFhk2eZnPEuXLWM5TaunwNL8QnfYzxzEbI/edit?usp=sharing>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
