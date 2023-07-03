@@ -3,10 +3,12 @@ function getAllPoweredValuesLimitedByNumber(value) {
 	const arrayResults = [];
 	let n = 0;
 	const maxNumber = Math.floor(Math.sqrt(value));
+
 	while (n < maxNumber) {
 	n++;
 	arrayResults.push(n*n);
 	}
+	
 	console.log(arrayResults);
 	return arrayResults;
 }
