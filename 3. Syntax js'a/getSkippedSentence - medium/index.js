@@ -1,18 +1,36 @@
+import { validation } from "../../validation.js";
+
 function getSkippedSentence(sentence, skip) {
-	if (!sentence || typeof(sentence) !== 'string') {return};
-	if (!skip || typeof(skip) !== 'number') {return};
-	if (skip >= sentence.length) {return};
-	let i = 0;
-	let result = '';
-
-	for (const element of sentence) {
-		i++
-		if (i % skip != 0 && i < sentence.length) {
-			result = result + sentence.slice(i, i + 1);
+	validation(
+		{
+			value: sentence,
+			type: 'String'
+		},
+		{
+			value: skip,
+			type: 'Number'
 		}
-	}
+	)
 
-	console.log(result);
+	let result = '';
+	let elementsArray = sentence.split('');
+
+	result = elementsArray.reduce((accumulator, currentElement, index) => {
+
+		if (index % skip != 0) accumulator += currentElement;
+		return accumulator;
+	}, '');
+
+	return result;
 }
 
-getSkippedSentence("0123456789",2);
+console.log(getSkippedSentence("0123456789_1_3_4", 3));
+
+
+	//old solution
+	// for (const [index, element] of sentence.split('').entries()) {
+	// 	if (index % skip !== 0 && index < sentence.length) {
+	// 		const qwe = sentence.slice(index, index + 1);
+	// 		result += qwe
+	// 	}
+	// }

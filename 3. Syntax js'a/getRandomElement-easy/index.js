@@ -1,16 +1,18 @@
-function getRandomElement(dataArray) {
-    const arrayLength = dataArray.length;
+import { validation } from "../../validation.js";
 
-    for (const element of dataArray) {
-        const randomNumber = Math.floor(Math.random() * arrayLength);
-        const result = dataArray[randomNumber];
-        console.log('result', result);
-        return result;
-        
-    }
+function getRandomElement(dataArray) {
+    validation({
+        'value': dataArray,
+        'type': 'Array'
+    });
+    const arrayLength = dataArray.length;
+    const randomNumber = Math.floor(Math.random() * arrayLength);
+    const randomElement = dataArray[randomNumber];
+
+    return randomElement;
 };
 
 const exampleArray = ["raz", "dwa", "trzy", "cztery", "piec", 2, 3, 5, 8, 9];
 
-getRandomElement(exampleArray);
+console.log(getRandomElement(exampleArray));
 

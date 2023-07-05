@@ -1,31 +1,23 @@
-function getAllPoweredValuesLimitedByNumber(value) {
-	if (!value || typeof(value) !== 'number') {return};
-	const arrayResults = [];
+import { validation } from "../../validation.js";
+
+function getAllPoweredValuesLimitedByNumber(numberValue = []) {
+
+	validation({
+		value: numberValue,
+		type: 'Number'
+	});
+
+	const results = [];
 	let n = 0;
-	const maxNumber = Math.floor(Math.sqrt(value));
+	const maxNumber = Math.round(Math.sqrt(numberValue));
 
 	while (n < maxNumber) {
-	n++;
-	arrayResults.push(n*n);
+		n++;
+		const poweredValue = n * n
+		results.push(poweredValue);
 	}
-	
-	console.log(arrayResults);
-	return arrayResults;
+
+	return results;
 }
 
-getAllPoweredValuesLimitedByNumber(56);
-
-
-
-// big o notion
-
-
-// brak varow / brak starych forow / bardzo rzadko pozwalam na forEach
-
-// validacja
-// const > let
-// ES6 + for ( const qwe of asd ) + for ( const qwe in asd ) + arr.entries()
-// mdn
-
-// npm init -y
-// npm -> nodemon
+console.log(getAllPoweredValuesLimitedByNumber(56));
