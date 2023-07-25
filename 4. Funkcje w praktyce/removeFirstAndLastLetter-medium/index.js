@@ -12,7 +12,7 @@ function removeFirstAndLastLetter(textValue) {
 	const textValueArray = textValue.split('');
 
 	// solution 02
-	let result2 = textValueArray.reduce((accu, currentValue, index, arr) => {
+	let result2 = textValueArray.reduce((accu, currentValue, index) => {
 		if (index != 0) return accu += currentValue
 		return accu;
 		// drugi warunek (index != arr.length -1) ???

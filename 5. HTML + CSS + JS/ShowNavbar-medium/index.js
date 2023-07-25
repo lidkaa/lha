@@ -20,4 +20,4 @@ button.addEventListener('click', () => {
     });
 })
 
-//opóżnienie?
+//opóżnienie przy scrollend?

@@ -12,13 +12,18 @@ function getSkippedSentence(sentence, skip) {
 		}
 	)
 
-	let result = '';
-	let elementsArray = sentence.split('');
 
-	result = elementsArray.reduce((accumulator, currentElement, index) => {
+	const elementsArray = sentence.split('');
+	const result = elementsArray.reduce((accumulator, currentElement, index) => {
+		const isCleanRestAfterDividing = index % skip === 0
 
-		if (index % skip != 0) accumulator += currentElement;
+		if (!isCleanRestAfterDividing) return accumulator += currentElement;
+
+		// DUZO INNYCH FUNCKJONALNOSCI
+
 		return accumulator;
+
+
 	}, '');
 
 	return result;

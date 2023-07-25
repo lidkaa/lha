@@ -9,21 +9,17 @@ const changeFirstLetters = (text) => {
 
     const textArray = text.split(' ');
 
-    let result = textArray.reduce((sentence, word) => {
-        const firstLetter = word.charAt(0);
-        const slicedWord = word.slice(1);
-        const isLowerCase = firstLetter === firstLetter.toLowerCase();
-        const newWordUpper = firstLetter.toUpperCase() + slicedWord;
-        const newWordLower = firstLetter.toLowerCase() + slicedWord;
-        let newWord = '';
+    const result = textArray.reduce((accumulator, currentValue) => {
+        const firstLetter = currentValue.charAt(0);
+        const restOfTheWord = currentValue.slice(1);
+        const firstLetterLowerCased = firstLetter.toLowerCase();
+        const firstLetterUpperCased = firstLetter.toUpperCase();
 
-        isLowerCase ? newWord = newWordUpper : newWord = newWordLower;
+        const isFirstLetterSmall = firstLetter === firstLetterLowerCased
+        const correctFirstLetter = isFirstLetterSmall ? firstLetterUpperCased : firstLetterLowerCased
 
-        sentence += ` ${newWord}`;
-
-        return sentence;
-
-    }, '');
+        return accumulator += ` ${correctFirstLetter}${restOfTheWord}`;
+    }, '').trimStart();
 
     return result;
 

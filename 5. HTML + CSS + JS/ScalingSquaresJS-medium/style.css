@@ -1,21 +1,37 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
+button {
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    background-color: rgb(107, 107, 107);
+    color: rgb(233, 233, 233);
+}
+
+button:hover {
+    transform: scale(1.01);
+}
 
 #squareContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 .square {
     width: 100px;
     height: 100px;
-    background-color: green;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(20, 168, 20);
+    border: 2px solid rgb(139, 202, 139);
     color: white;
-    margin: 10px;
+    font-weight: bold;
 }

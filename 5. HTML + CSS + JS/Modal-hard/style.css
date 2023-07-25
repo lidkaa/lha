@@ -1,0 +1,93 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.backgroundContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.singleDiv {
+    width: 400px;
+    height: 300px;
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    color: rgb(110, 110, 110);
+    background-color: rgb(214, 214, 214);
+    border: 15px solid rgb(247, 81, 136);
+    border-top: 50px solid rgb(168, 73, 105);
+    border-bottom: 30px solid rgb(168, 73, 105);
+
+}
+
+.modal {
+    border: 15px solid rgb(119, 119, 172);
+    z-index: 1;
+    display: none;
+    position: absolute;
+    transform: translate(0, 0);
+    color: rgb(110, 110, 110);
+    background-color: white;
+    padding: 35px;
+}
+
+h1 {
+    margin: 35px 0 35px 0;
+    color: rgb(168, 73, 105);
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.8;
+    transform: translate(0, 0);
+}
+
+button {
+    background-color: rgb(185, 185, 221);
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: rgb(119, 119, 172);
+}
+
+.showModalButton {
+    margin: 50px 0 50px 0;
+}
+
+.closeModalButton {
+    margin: 35px 0 35px 0;
+}

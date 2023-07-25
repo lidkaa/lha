@@ -9,7 +9,7 @@ const addSquare = () => {
     newSquare.appendChild(squareNumber);
     newSquare.addEventListener('mousedown', changeSquare);
     squareContainer.appendChild(newSquare);
-    if (squareContainer.firstChild) removeButton.disabled = false
+    if (squareContainer.firstChild) removeButton.disabled = false;
     squareCounter++
 }
 
@@ -19,20 +19,14 @@ const removeSquare = () => {
     if (squareContainer.childNodes.length === 0) removeButton.disabled = true;
 }
 
-
 const changeSquare = (event) => {
     const squareStyle = event.target.style;
     const squareEdge = event.target.clientWidth;
     const enlargedSquareDimension = squareEdge + 10 + 'px';
     const reducedSquareDimension = squareEdge - 10 + 'px';
 
-    if (event.button === 0) {
-        squareStyle.width = squareStyle.height = enlargedSquareDimension;
-    }
-
-    if (event.button === 2 && squareEdge > 100) {
-        squareStyle.width = squareStyle.height = reducedSquareDimension;
-    }
+    if (event.button === 0) squareStyle.width = squareStyle.height = enlargedSquareDimension;
+    if (event.button === 2 && squareEdge > 100) squareStyle.width = squareStyle.height = reducedSquareDimension;
 }
 
 

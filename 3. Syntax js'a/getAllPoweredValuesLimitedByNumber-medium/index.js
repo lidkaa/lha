@@ -7,8 +7,8 @@ function getAllPoweredValuesLimitedByNumber(numberValue = []) {
 		type: 'Number'
 	});
 
-	const results = [];
 	let n = 0;
+	const results = [];
 	const maxNumber = Math.round(Math.sqrt(numberValue));
 
 	while (n < maxNumber) {

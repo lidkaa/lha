@@ -23,7 +23,7 @@ const increaseNumber = () => {
 }
 
 const decreaseNumber = () => {
-    counterValue--;
+    if (counterValue > 0) counterValue--;
     return counterElement.textContent = counterValue;
 }
 

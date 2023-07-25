@@ -1,44 +1,21 @@
-import { validation } from "../../validation.js";
-
-let sum = 0;
+import { isValueArrayType, isValueNumberType } from "../../validation.js";
 
 const getArraySum = (numbersArray, initialValue) => {
+    isValueArrayType(numbersArray);
+    isValueNumberType(initialValue);
 
-    validation(
-        {
-            value: numbersArray,
-            type: 'Array'
+    let sum = 0;
 
-        },
-        {
-            value: initialValue,
-            type: 'Number'
-
-        })
-
-    if (numbersArray.length > 1) {
-
-        if (numbersArray.length > 0) {
-            sum += numbersArray[0] + numbersArray[1];
-            numbersArray.shift();
-            numbersArray.shift();
-            if (numbersArray.length != 0) getArraySum(numbersArray, 0);
-        }
-
-        if (numbersArray.length === 1) {
-            sum += numbersArray[0];
-            numbersArray.shift();
-        }
-
+    for (const number of numbersArray) {
+        sum += number
     }
 
     return sum + initialValue;
 }
 
-const exampleArray = [1, 1, 5, 1, 1, 1, 1];
+const exampleArray = [1, 1, 5, 1, 1, 5, 1];
 const startingNumber = 5;
 console.log(getArraySum(exampleArray, startingNumber));
-
 
 
 // to explain (?)
@@ -54,3 +31,20 @@ console.log(getArraySum(exampleArray, startingNumber));
 // jak to zrobić bez definiowania sum przed funkcją?
 
 
+
+// if (numbersArray.length > 1) {
+
+//     if (numbersArray.length > 0) {
+//         sum += numbersArray[0] + numbersArray[1];
+//         // sum ????
+//         numbersArray.shift();
+//         numbersArray.shift();
+//         if (numbersArray.length != 0) getArraySum(numbersArray, 0);
+//     }
+
+//     if (numbersArray.length === 1) {
+//         sum += numbersArray[0];
+//         numbersArray.shift();
+//     }
+
+// }

@@ -1,50 +1,39 @@
 function areTheyEqual(firstValue, secondValue) {
 
-	if (!firstValue || !secondValue) throw new Error('pass a proper value')
+	const isFirstValueObjectType = Object.prototype.toString.call(firstValue) === '[object Object]'
+	const isSecondValueObjectType = Object.prototype.toString.call(firstValue) === '[object Object]'
+	const areBothValuesObjects = isFirstValueObjectType && isSecondValueObjectType
 
-	const isTypeObject = typeof (firstValue, secondValue) === 'object' ? true : false;
-	const isArray = firstValue instanceof Array && secondValue instanceof Array ? true : false;
-	const isArrayLengthEqual = firstValue.length === secondValue.length ? true : false;
-
-	//objects
-	if (isTypeObject && !isArray) {
-		const firstValueKeys = Object.keys(firstValue).sort();
-		const secondValueKeys = Object.keys(secondValue).sort();
-		const areKeysLengthEqual = firstValueKeys.length === secondValueKeys.length ? true : false;
-
-
-		if (areKeysLengthEqual) {
-			return firstValueKeys.every(element => {
-				console.log(element, firstValue[element], secondValue[element]);
-				let equality = firstValue[element] === secondValue[element];
-				return equality
-			})
-		}
+	if (areBothValuesObjects) {
+		const firstValueKeys = Object.keys(firstValue);
+		return firstValueKeys.every(key => firstValue[key] === secondValue[key]);
 	}
 
-	// //arrays
-	if (isArray && isArrayLengthEqual) {
+	const areBothValuesArrayType = Array.isArray(firstValue) && Array.isArray(secondValue);
+	if (areBothValuesArrayType) {
+		const isArrayLengthEqual = firstValue.length === secondValue.length;
+		if (!isArrayLengthEqual) return;
+
 		return firstValue.every((element, index) => element === secondValue[index]);
 	}
 
-	//primitives vs ...
-	return firstValue === secondValue ? true : false;
+	return firstValue === secondValue;
 }
 
 
-// let firstValue = {
+// const firstValue = {
 // 	a: 1,
 // 	b: 2
 // };
-// let secondValue = {
+// const secondValue = {
 // 	b: 2,
 // 	a: 1
 // };
 
-// let firstValue = [1, 2, 3];
-// let secondValue = [1, 2, 3];
+let firstValue = [1, 2, 4];
+let secondValue = [1, 2, 3];
 
-let firstValue = 's';
-let secondValue = 'a';
+// let firstValue = 's';
+// let secondValue = 'a';
 
 console.log(areTheyEqual(firstValue, secondValue));

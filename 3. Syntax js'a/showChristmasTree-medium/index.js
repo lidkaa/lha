@@ -1,10 +1,9 @@
-import { validation } from "../../validation.js";
+import { isValueNumberType, isValueNumberIsBiggerThanZero } from "../../validation.js";
 
 function showChristmasTree(treeHeight = 5) {
-    validation({
-        value: treeHeight,
-        type: 'Number',
-    })
+
+    isValueNumberType(treeHeight);
+    isValueNumberIsBiggerThanZero(treeHeight);
 
     if (treeHeight <= 0 || treeHeight > 10) throw new Error('Pass values between 1 and 10');
 
@@ -15,12 +14,10 @@ function showChristmasTree(treeHeight = 5) {
     const rightSideOfTree = '\\'
     const topOfTree = emptySpace.repeat(treeHeight) + '*';
     const bottomOfTree = emptySpace.repeat(treeHeight) + '|';
+    let leavesLevel = '';
 
     let i = 0;
     let j = treeHeight;
-    let result = '';
-
-    console.log(topOfTree);
 
     for (const _ of levels) {
 
@@ -29,13 +26,10 @@ function showChristmasTree(treeHeight = 5) {
 
         const repeatedEmptySpaces = emptySpace.repeat(j)
         const repeatedContent = leaf.repeat(i - 1)
-        const leavesLevel = `${repeatedEmptySpaces}${leftSideOfTree}${repeatedContent}${rightSideOfTree}`
-        console.log(leavesLevel);
+        leavesLevel += `${repeatedEmptySpaces}${leftSideOfTree}${repeatedContent}${rightSideOfTree}\n`
     }
 
-    console.log(bottomOfTree);
-
-    return result
+    return topOfTree + '\n' + leavesLevel.trimEnd() + '\n' + bottomOfTree;
 }
 
-console.log(showChristmasTree(5));
+console.log(showChristmasTree(6));

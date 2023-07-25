@@ -1,0 +1,52 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px 0 0 20px;
+    justify-content: center;
+}
+
+input {
+    margin: 10px;
+    line-height: 25px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 0;
+}
+
+
+input:focus {
+    outline: 1px solid rgb(107, 107, 212);
+    border: none;
+}
+
+.errorMessage {
+    display: none;
+    margin-left: 10px;
+    font-size: 12px;
+    color: red;
+}
+
+label {
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+button {
+    width: 300px;
+    height: 35px;
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(192, 192, 192);
+}
